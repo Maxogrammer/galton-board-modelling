@@ -1,0 +1,19 @@
+constexpr int TOTAL_ROWS = 51,
+              MAX_PINS_PER_ROW = 51;
+
+constexpr double PIN_H_SPACING = 5.0,
+                 PIN_V_SPACING = 5.0,
+                 BORDER_MARGIN = 5.0,
+                 TOP_MARGIN = 5.0,
+                 HALF_GAP = 1.0,
+                 PIN_RADIUS = 1.0;
+
+// Physics settings
+constexpr double BALL_RADIUS = 1.0,
+                 LOSS_COEFF = 0.63,
+                 FIXED_TIMESTEP = 0.001,
+                 SIMULATION_SPEED = 1.0;
+
+// Simulation limits
+constexpr int TOTAL_BALLS = 1000000,
+              MAX_ACTIVE_BALLS = 100000;
